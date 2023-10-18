@@ -1,7 +1,6 @@
 const API_KEY = process.env.API_KEY
 let responseData;
 
-// fonction filter pour trouver les jeux qui sont sur une platforme donnée
 const findByPlatform = (articles, selectedPlatform) => {
     if (selectedPlatform === "any"){
       displayResults(articles)
@@ -66,7 +65,6 @@ let displayResults = (articles) => {
       </div>
     </article>
   `
-
   ));
 
   const resultsContainer = document.querySelector('.page-list .articles');
