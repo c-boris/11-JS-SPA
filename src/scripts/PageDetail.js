@@ -69,7 +69,6 @@ const PageDetail = (argument) => {
       getYtbVideo(name)
     }
 
-
     const fetchGame = (url, argument) => {
       fetch(`${url}/${argument}?key=${API_KEY}`)
         .then((response) => response.json())
