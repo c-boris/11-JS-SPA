@@ -1,5 +1,5 @@
-import API_YTB from './key.js'
 const API_KEY = process.env.API_KEY;
+const API_YTB = process.env.API_YTB;
 
 const PageDetail = (argument) => {
   const preparePage = () => {
